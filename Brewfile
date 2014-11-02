@@ -3,7 +3,6 @@
 ## caskroom/cask
 tap caskroom/cask
 install brew-cask
-cask install iterm2
 
 ## homebrew/dupes
 tap homebrew/dupes
