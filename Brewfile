@@ -3,7 +3,6 @@
 ## caskroom/cask
 tap caskroom/cask
 install brew-cask
-cask install iterm2
 
 ## homebrew/dupes
 tap homebrew/dupes
@@ -55,6 +54,7 @@ install libtiff
 install libtool
 install libxml2
 install libyaml
+install lua
 install lzlib
 install maven
 install mercurial
@@ -71,5 +71,6 @@ install readline
 install sfcgal
 install sqlite
 install subversion
+install vim --HEAD --with-lua
 install wget
 install xctool
