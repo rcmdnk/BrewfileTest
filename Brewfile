@@ -6,5 +6,6 @@ cask install iterm2
 tap rcmdnk/rcmdnkpac
 install screenutf8 --HEAD --utf8
 ## Others
+install python
 install brew-pip
 brew pip asciinema
