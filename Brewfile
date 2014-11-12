@@ -21,7 +21,7 @@ install ppl011
 
 ## rcmdnk/file
 tap rcmdnk/file
-install brew-file
+install brew-file --HEAD
 
 ## rcmdnk/rcmdnkpac
 tap rcmdnk/rcmdnkpac
