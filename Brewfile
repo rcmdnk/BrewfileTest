@@ -2,7 +2,7 @@
 before echo before
 
 ## caskroom/cask
-tap caskroom/cask/brew-cask
+install caskroom/cask/brew-cask
 cask install iterm2
 tapall rcmdnk/rcmdnkcask
 
