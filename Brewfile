@@ -2,12 +2,13 @@
 before echo before
 
 ## caskroom/cask
-tap caskroom/cask
-install brew-cask
+tap caskroom/cask/brew-cask
 cask install iterm2
+tapall rcmdnk/rcmdnkcask
 
 ## rcmdnk/rcmdnkpac
-tapall rcmdnk/rcmdnkpac
+tap rcmdnk/rcmdnkpac
+install screenutf8 --HEAD --utf8
 
 ## After commands
 after echo after
