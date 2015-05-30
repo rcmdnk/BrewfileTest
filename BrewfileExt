@@ -1,0 +1,8 @@
+## Before commands
+before echo EXT before
+
+## brew command
+brew wget --with-iri --with-debug
+
+## After commands
+after echo EXT after
