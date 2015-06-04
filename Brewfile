@@ -70,6 +70,7 @@ brew gpp
 brew isl
 brew jpeg
 brew json-c
+brew lastpass-cli --with-doc
 brew libgeotiff
 brew libgpg-error
 brew libksba
