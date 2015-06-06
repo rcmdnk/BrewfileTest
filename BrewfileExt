@@ -1,5 +1,8 @@
-# Before commands
+## Before commands
 before echo EXT before
 
-# After commands
+## brew command
+brew lastpass-cli --with-doc
+
+## After commands
 after echo EXT after
