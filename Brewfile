@@ -33,11 +33,6 @@ brew brew-file --HEAD
 tap rcmdnk/mytest
 brew mytest2 --HEAD
 
-## rcmdnk/rcmdnkcask
-tap rcmdnk/rcmdnkcask
-cask configureapplicationdocktile
-cask font-migu1m
-
 ## rcmdnk/rcmdnkpac
 tap rcmdnk/rcmdnkpac
 brew escape_sequence
@@ -115,9 +110,11 @@ brew xz
 pip pip-asciinema
 pip pip-gcalcli
 
-# Additional files
-file BrewfileExt
-file ~/.Brewfile
+# Below applications were installed by Cask,
+# but do not have corresponding casks.
+
+#cask configureapplicationdocktile (!)
+#cask font-migu1m (!)
 
 # Other commands
 echo other commands

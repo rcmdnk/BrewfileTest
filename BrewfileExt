@@ -2,7 +2,7 @@
 before echo EXT before
 
 # Other Homebrew packages
-brew lastpass-cli --with-doc
+brew 'lastpass-cli', args: ['with-doc']
 
 # After commands
 after echo EXT after
