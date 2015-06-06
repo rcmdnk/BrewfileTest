@@ -1,120 +1,30 @@
 # Before commands
 before echo before
 
-# tap repositories and their packages
+# brew install with opt
+brew install emacs --cocoa --with-gnutls
 
-## caskroom/cask
-tap caskroom/cask
-brew brew-cask
-cask firefox
-cask iterm2
+# caskroom/cask
+brew caskroom/cask/brew-cask
+cask install iterm2
+tap rcmdnk/rcmdnkcask
+cask install configureapplicationdocktile
+cask install font-migu1m
 
-## homebrew/dupes
-tap homebrew/dupes
-brew apple-gcc42
+# rcmdnk/rcmdnkpac
+tapall rcmdnk/rcmdnkpac
 
-## homebrew/versions
-tap homebrew/versions
-brew cloog-ppl015
-brew cloog018
-brew gcc46
-brew gcc48
-brew gmp4
-brew isl011
-brew libmpc08
-brew mpfr2
-brew ppl011
+## pip
+#install brew-pip
+pip asciinema
+pip gcalcli
 
-## rcmdnk/file
-tap rcmdnk/file
-brew brew-file --HEAD
+# App Store applications
+appstore Keynote
 
-## rcmdnk/mytest
-tap rcmdnk/mytest
-brew mytest2 --HEAD
-
-## rcmdnk/rcmdnkpac
-tap rcmdnk/rcmdnkpac
-brew escape_sequence
-brew evernote_mail
-brew gtask
-brew multi_clipboard
-brew parse-plist
-brew rcmdnk-trash
-brew screenutf8
-brew sd_cl
-brew sentaku
-brew stow_reset
-
-# Other Homebrew packages
-brew asciidoc
-brew autoconf
-brew automake
-brew boost
-brew brew-pip
-brew cgal
-brew cloog
-brew cmake
-brew cscope
-brew docbook
-brew emacs --with-gnutls --with-cocoa
-brew freexl
-brew gcc
-brew gdal
-brew gdbm
-brew geos
-brew giflib
-brew gmp
-brew gnutls
-brew go
-brew gpp
-brew isl
-brew jpeg
-brew json-c
-brew libgeotiff
-brew libgpg-error
-brew libksba
-brew liblwgeom
-brew libmpc
-brew libpng
-brew libspatialite
-brew libtasn1
-brew libtiff
-brew libtool
-brew libxml2
-brew libyaml
-brew lzlib
-brew macvim
-brew maven
-brew mercurial
-brew mpfr
-brew nettle
-brew node
-brew openssl
-brew ossp-uuid
-brew pkg-config
-brew postgis
-brew postgresql
-brew proj
-brew pyenv
-brew python
-brew readline
-brew sfcgal
-brew sqlite
-brew subversion
-brew wget
-brew xctool
-brew xz
-
-# pip packages
-pip pip-asciinema
-pip pip-gcalcli
-
-# Below applications were installed by Cask,
-# but do not have corresponding casks.
-
-#cask configureapplicationdocktile (!)
-#cask font-migu1m (!)
+# Additional files
+file BrewfileExt
+brewfile ~/.Brewfile
 
 # Other commands
 echo other commands
