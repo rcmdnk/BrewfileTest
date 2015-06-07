@@ -2,7 +2,6 @@
 before echo EXT before
 
 # Other Homebrew packages
-brew lastpass-cli --with-doc
 brew emacs --with-gnutls --with-cocoa
 
 # After commands
