@@ -1,8 +1,5 @@
 # Before commands
 before echo EXT before
 
-# Other Homebrew packages
-brew lastpass-cli --with-doc
-
 # After commands
 after echo EXT after
