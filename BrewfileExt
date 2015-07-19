@@ -1,8 +1,9 @@
-# Before commands
+## Before commands
 before echo EXT before
 
-# Other Homebrew packages
-brew emacs
+# brew install with opt
+brew lastpass-cli --with-doc
+brew install emacs --cocoa --with-gnutls
 
-# After commands
+## After commands
 after echo EXT after
