@@ -1,8 +1,0 @@
-# Before commands
-before echo EXT before
-
-# Other Homebrew packages
-brew vim --HEAD --with-lua
-
-# After commands
-after echo EXT after
