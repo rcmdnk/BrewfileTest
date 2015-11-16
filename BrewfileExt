@@ -1,10 +1,2 @@
-# Before commands
-before echo EXT before
 
 # tap repositories and their packages
-
-# Other Homebrew packages
-brew vim --with-lua
-
-# After commands
-after echo EXT after
