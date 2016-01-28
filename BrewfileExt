@@ -1,10 +1,9 @@
-# Before commands
+## Before commands
 before echo EXT before
 
-# tap repositories and their packages
+# brew install with opt
+brew vim --HEAD --with-lua
+brew install emacs --cocoa --with-gnutls
 
-# Other Homebrew packages
-brew vim --with-lua
-
-# After commands
+## After commands
 after echo EXT after
